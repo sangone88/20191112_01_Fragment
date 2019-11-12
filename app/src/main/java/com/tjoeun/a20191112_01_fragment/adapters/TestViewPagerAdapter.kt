@@ -33,7 +33,7 @@ class TestViewPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm) {
 
 //    몇개의 페이지를 운영할건지
     override fun getCount(): Int {
-      return 2
+      return 6
     }
 
     override fun getPageTitle(position: Int): CharSequence? {

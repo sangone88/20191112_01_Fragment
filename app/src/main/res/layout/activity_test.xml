@@ -7,11 +7,11 @@
     android:orientation="vertical"
     tools:context=".TestActivity">
 
+    <!--     라이브러리 전용은 app: 으로 붙어있음-->
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/myTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<!--        라이브러리 전용은 app: 으로 붙어있음-->
         app:tabIndicatorColor="#000000"
         app:tabIndicatorHeight="3dp"
         app:tabTextColor="#FF0000"
